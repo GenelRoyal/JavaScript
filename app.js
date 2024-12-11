@@ -75,6 +75,7 @@ while ((user_hand != "グー") && (user_hand != "チョキ") && (user_hand != "�
 }
 
 let js_hand = getJShand();
+
 let judge = winLose(user_hand, js_hand);
 
 if (user_hand != null){
