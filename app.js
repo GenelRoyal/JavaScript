@@ -75,7 +75,9 @@ while ((user_hand != "グー") && (user_hand != "チョキ") && (user_hand != "�
 }
 
 let js_hand = getJShand();
+
 let judge = winLose(user_hand, js_hand);
+
 if (user_hand != null){
   alert('あなたの選んだ手は' + user_hand + 'です。\nJavaScriptの選んだ手は' + js_hand + 'です。\n結果は' + judge + 'です。');
 } else {
